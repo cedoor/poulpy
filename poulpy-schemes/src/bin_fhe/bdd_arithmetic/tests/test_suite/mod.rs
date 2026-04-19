@@ -6,6 +6,7 @@ mod glwe_blind_rotation;
 mod glwe_blind_selection;
 mod or;
 mod prepare;
+mod prepare_then_add;
 mod sll;
 mod slt;
 mod sltu;
@@ -28,6 +29,7 @@ use poulpy_hal::{
     source::Source,
 };
 pub use prepare::*;
+pub use prepare_then_add::*;
 pub use sll::*;
 pub use slt::*;
 pub use sltu::*;

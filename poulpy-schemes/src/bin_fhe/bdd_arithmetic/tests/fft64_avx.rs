@@ -68,6 +68,11 @@ fn bdd_add() {
 }
 
 #[test]
+fn bdd_prepare_then_add() {
+    test_suite::test_bdd_prepare_then_add(&TEST_CONTEXT_CGGI_FFT64_REF)
+}
+
+#[test]
 fn bdd_and() {
     test_suite::test_bdd_and(&TEST_CONTEXT_CGGI_FFT64_REF)
 }
